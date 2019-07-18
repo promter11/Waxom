@@ -1,0 +1,49 @@
+.feature-section {
+    padding: 88px 0;
+
+    &-block {
+
+        &__image {
+            margin-bottom: 30px;
+        }
+
+        &__title {
+            margin-bottom: 22px;
+        }
+
+        &__description {
+            margin-bottom: 30px;
+
+            line-height: 1.7;
+
+            color: $description-color-2;
+        }
+
+        &__line {
+            width: 70px;
+            height: 3px;
+    
+            margin: 0 auto;
+    
+            background-color: $line-color;
+        }
+
+        &:hover {
+
+            .feature-section-block__image {
+
+                feFlood {
+                    flood-color: $brand-color;
+                }
+            }
+
+            .feature-section-block__title {
+                color: $brand-color;
+            }
+
+            .feature-section-block__line {
+                background-color: $brand-color;
+            }
+        }
+    }
+}

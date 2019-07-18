@@ -1,0 +1,125 @@
+.header-section {
+
+    .navbar {
+        position: absolute;
+        top: 40px;
+
+        width: 100%;
+
+        z-index: 100;
+
+        &-brand {
+            font-family: 'Raleway';
+            font-weight: normal;
+            font-size: 34px;
+            line-height: 1.2;
+
+            &-text {
+                color: #fff;
+            }
+        }
+
+        .nav {
+
+            &-link {
+                font-family: 'Montserrat';
+                font-weight: 200;
+                font-size: 14px;
+                line-height: 1.2;
+
+                padding: 0;
+                margin: 0 15px;
+
+                color: #fff;
+
+                &:hover {
+                    color: $brand-color;
+                }
+
+                &:focus {
+                    color: $brand-color;
+                }
+            }
+    
+            &-item {
+
+                &:last-child {
+                    position: relative;
+
+                    &:hover {
+                        
+                        .search-icon {
+
+                            feFlood {
+                                flood-color: $brand-color;
+                            }
+                        }
+                    }
+                }
+    
+                .form-control {
+                    display: none;
+
+                    position: absolute;
+                    top: 45px;
+                    right: 15px;
+
+                    width: 170px;
+                }
+            }
+        }
+    }
+
+    .carousel {
+
+        &-indicators {
+            
+            li {
+                width: 15px;
+                height: 15px;
+
+                border-radius: 50%;
+            }
+
+            .active {
+                border: 2px solid $brand-color;
+
+                background-color: transparent;
+            }
+        }
+
+        &-inner {
+
+            .carousel-item {
+        
+                &__image {
+                    max-height: 1024px;
+
+                    filter: brightness(30%);
+                }
+
+                .carousel-caption {
+                    max-width: 630px;
+                    margin: 0 auto;
+            
+                    bottom: 220px;
+
+                    h2,
+                    h1 {
+                        color: #fff;
+                    }
+
+                    button {
+                        margin-top: 50px;
+                    }
+                }
+            }
+        }
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            width: 40px;
+            height: 70px;
+        }
+    }
+}

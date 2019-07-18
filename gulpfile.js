@@ -38,7 +38,11 @@ gulp.task('styles', () => {
 });
 
 gulp.task('scripts', () => {
-    return gulp.src('app/libs/js/**/*.js')
+    return gulp.src([
+        'app/libs/js/jquery-3.4.1.min.js',
+        'app/libs/js/popper.min.js',
+        'app/libs/js/bootstrap.min.js'
+    ])
         .pipe(concat('libs.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('app/libs/js'));

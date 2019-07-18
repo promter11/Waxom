@@ -1,6 +1,83 @@
-* {
-    margin: 0;
-    padding: 0;
+h1 {
+    font-size: 52px;
+    font-weight: 800;
+}
 
-    box-sizing: border-box;
+h2 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway';
+    line-height: 1.2;
+
+    color: $title-color;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-weight: 200;
+    line-height: 1.75;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li,
+a {
+    text-decoration: none;
+}
+
+a {
+    font-family: 'Montserrat';
+    font-weight: 200;
+    line-height: 1.2;
+
+    outline: none;
+}
+
+button {
+    font-family: 'Raleway';
+    font-weight: 800;
+    line-height: 1.6;
+    text-transform: uppercase;
+
+    width: 170px;
+    height: 53px;
+
+    border: none;
+    border-bottom: 3px solid $border-color;
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    background-color: $button-color;
+    color: #fff;
 }
