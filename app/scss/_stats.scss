@@ -1,0 +1,50 @@
+.stats-section {
+    padding: 66px 0 56px 0;
+
+    background-image: linear-gradient(90deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
+
+    &-block {
+
+        &__image {
+            margin-bottom: 30px;
+        }
+
+        &__number {
+            display: block;
+
+            font-family: 'Montserrat';
+            font-size: 48px;
+            font-weight: 200;
+            line-height: 0.75;
+
+            margin-bottom: 20px;
+
+            color: #fff;
+        }
+
+        &__description {
+            display: block;
+
+            font-family: 'Montserrat';
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 1.4;
+            text-transform: uppercase;
+
+            margin-bottom: 30px;
+
+            color: $project-type-color;
+        }
+
+        &__line {
+            display: block;
+
+            width: 30px;
+            height: 2px;
+
+            margin: 0 auto;
+
+            background-color: #fff;
+        }
+    }
+}

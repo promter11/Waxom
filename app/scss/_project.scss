@@ -1,0 +1,132 @@
+.project-section {
+    padding: 82px 0;
+
+    &-header {
+
+        h3 {
+            text-transform: capitalize;
+
+            margin-bottom: 30px;
+        }
+
+        p {
+            max-width: 760px;
+
+            margin-bottom: 40px;
+        }
+
+        .nav {
+            margin-bottom: 40px;
+
+            &-link {
+                padding: 15px;
+                margin: 0 5px;
+
+                text-transform: capitalize;
+
+                border: 1px solid $border-link-color;
+                border-radius: 4px;
+
+                color: $description-color-2;
+
+                &:hover {
+                    background-color: $brand-color;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    &-block {
+        margin-bottom: 30px;
+
+        &-img {
+            width: 370px;
+            height: 237px;
+        }
+
+        &-img-1 {
+            background: url(../img/project-img-1.png) no-repeat;
+        }
+
+        &-img-2 {
+            background: url(../img/project-img-2.png) no-repeat;
+        }
+
+        &-img-3 {
+            background: url(../img/project-img-3.png) no-repeat;
+        }
+
+        &-img-4 {
+            background: url(../img/project-img-4.png) no-repeat;
+        }
+
+        &-img-5 {
+            background: url(../img/project-img-5.png) no-repeat;
+        }
+
+        &-img-6 {
+            background: url(../img/project-img-6.png) no-repeat;
+        }
+
+        &:hover {
+
+            .project-section-block-img {
+                background-blend-mode: darken;
+                background-color: rgba(0, 0, 0, 0.7);
+            }
+
+            .project-section-block-content {
+                background-color: $project-block-color;
+
+                &__title {
+                    color: #fff;
+                }
+
+                &__type {
+                    color: $project-type-color;
+                }
+
+                &:after {
+                    border-bottom: 15px solid $project-block-color;
+                }
+            }
+        }
+
+        &-content {
+            position: relative;
+
+            max-width: 370px;
+
+            padding: 30px;
+
+            background-color: $block-bg-color;
+
+            &__title {
+                color: $brand-color;
+            }
+
+            &__type {
+                color: $type-color;
+            }
+
+            &:after {
+                content: '';
+
+                position: absolute;
+                top: -30px;
+                left: 20px;
+
+                border: 15px solid transparent;
+                border-bottom: 15px solid #fff;
+            }
+        }
+    }
+
+    &-button {
+
+        button {
+            margin-top: 40px;
+        }
+    }
+}

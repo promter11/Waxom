@@ -7,6 +7,14 @@
 }
 
 @font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat/Montserrat-Light.eot");
+  src: url("../fonts/Montserrat/Montserrat-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat/Montserrat-Light.woff") format("woff"), url("../fonts/Montserrat/Montserrat-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Raleway';
   src: url("../fonts/Raleway/Raleway-Regular.eot");
   src: url("../fonts/Raleway/Raleway-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway/Raleway-Regular.woff") format("woff"), url("../fonts/Raleway/Raleway-Regular.ttf") format("truetype");
@@ -97,7 +105,7 @@ h6 {
 
 p {
   font-family: 'Montserrat';
-  font-weight: 200;
+  font-weight: 300;
   line-height: 1.75;
 }
 
@@ -112,7 +120,7 @@ a {
 
 a {
   font-family: 'Montserrat';
-  font-weight: 200;
+  font-weight: 300;
   line-height: 1.2;
   outline: none;
 }
@@ -152,7 +160,7 @@ button {
 
 .header-section .navbar .nav-link {
   font-family: 'Montserrat';
-  font-weight: 200;
+  font-weight: 300;
   font-size: 14px;
   line-height: 1.2;
   padding: 0;
@@ -323,9 +331,242 @@ button {
 .idea-section .idea-theme-section .idea-theme-block__description--blocked {
   display: block;
   font-family: 'Montserrat';
-  font-weight: 200;
+  font-weight: 300;
   font-size: 18px;
   color: #615855;
+}
+
+.project-section {
+  padding: 82px 0;
+}
+
+.project-section-header h3 {
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.project-section-header p {
+  max-width: 760px;
+  margin-bottom: 40px;
+}
+
+.project-section-header .nav {
+  margin-bottom: 40px;
+}
+
+.project-section-header .nav-link {
+  padding: 15px;
+  margin: 0 5px;
+  text-transform: capitalize;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+  color: #8c8c8c;
+}
+
+.project-section-header .nav-link:hover {
+  background-color: #c7b299;
+  color: #fff;
+}
+
+.project-section-block {
+  margin-bottom: 30px;
+}
+
+.project-section-block-img {
+  width: 370px;
+  height: 237px;
+}
+
+.project-section-block-img-1 {
+  background: url(../img/project-img-1.png) no-repeat;
+}
+
+.project-section-block-img-2 {
+  background: url(../img/project-img-2.png) no-repeat;
+}
+
+.project-section-block-img-3 {
+  background: url(../img/project-img-3.png) no-repeat;
+}
+
+.project-section-block-img-4 {
+  background: url(../img/project-img-4.png) no-repeat;
+}
+
+.project-section-block-img-5 {
+  background: url(../img/project-img-5.png) no-repeat;
+}
+
+.project-section-block-img-6 {
+  background: url(../img/project-img-6.png) no-repeat;
+}
+
+.project-section-block:hover .project-section-block-img {
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.project-section-block:hover .project-section-block-content {
+  background-color: #362f2d;
+}
+
+.project-section-block:hover .project-section-block-content__title {
+  color: #fff;
+}
+
+.project-section-block:hover .project-section-block-content__type {
+  color: #c7b299;
+}
+
+.project-section-block:hover .project-section-block-content:after {
+  border-bottom: 15px solid #362f2d;
+}
+
+.project-section-block-content {
+  position: relative;
+  max-width: 370px;
+  padding: 30px;
+  background-color: #fbfaf8;
+}
+
+.project-section-block-content__title {
+  color: #c7b299;
+}
+
+.project-section-block-content__type {
+  color: #d1d1d1;
+}
+
+.project-section-block-content:after {
+  content: '';
+  position: absolute;
+  top: -30px;
+  left: 20px;
+  border: 15px solid transparent;
+  border-bottom: 15px solid #fff;
+}
+
+.project-section-button button {
+  margin-top: 40px;
+}
+
+.video-section {
+  background: rgba(0, 0, 0, 0.5) url(../img/video-bg.png) no-repeat top center/cover;
+  background-blend-mode: darken;
+}
+
+.video-section-content {
+  max-width: 540px;
+  padding: 208px 0;
+  margin: 0 auto;
+}
+
+.video-section-content__play-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 40px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.video-section-content__title {
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.video-section-content__description {
+  margin-bottom: 38px;
+  color: #fff;
+}
+
+.video-section-content__time {
+  font-family: 'Montserrat';
+  line-height: 1.7;
+  color: #bcaa95;
+}
+
+.mobile-section {
+  padding-top: 78px;
+}
+
+.mobile-section-content__title {
+  margin-bottom: 40px;
+}
+
+.mobile-section-content__description {
+  font-size: 16px;
+  margin-bottom: 46px;
+}
+
+.mobile-section-content-list__item {
+  position: relative;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0 0 10px 60px;
+  color: #8c8c8c;
+}
+
+.mobile-section-content-list__item:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -60px;
+  width: 21px;
+  height: 21px;
+  background: url(../img/mobile-arrow.png) no-repeat;
+}
+
+.stats-section {
+  padding: 66px 0 56px 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#211b19), to(#4e3427));
+  background-image: -o-linear-gradient(left, #211b19 0%, #4e3427 100%);
+  background-image: linear-gradient(90deg, #211b19 0%, #4e3427 100%);
+}
+
+.stats-section-block__image {
+  margin-bottom: 30px;
+}
+
+.stats-section-block__number {
+  display: block;
+  font-family: 'Montserrat';
+  font-size: 48px;
+  font-weight: 200;
+  line-height: 0.75;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.stats-section-block__description {
+  display: block;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.4;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: #c7b299;
+}
+
+.stats-section-block__line {
+  display: block;
+  width: 30px;
+  height: 2px;
+  margin: 0 auto;
+  background-color: #fff;
 }
 
 .container {

@@ -1,0 +1,45 @@
+.video-section {
+    background: rgba(0, 0, 0, 0.5) url(../img/video-bg.png) no-repeat top center / cover;
+    background-blend-mode: darken;
+
+    &-content {
+        max-width: 540px;
+
+        padding: 208px 0;
+        margin: 0 auto;
+
+        &__play-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 100px;
+            height: 100px;
+
+            margin-bottom: 40px;
+
+            border-radius: 50%;
+
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        &__title {
+            margin-bottom: 30px;
+
+            color: #fff;
+        }
+
+        &__description {
+            margin-bottom: 38px;
+
+            color: #fff;
+        }
+
+        &__time {
+            font-family: 'Montserrat';
+            line-height: 1.7;
+
+            color: $time-color;
+        }
+    }
+}
