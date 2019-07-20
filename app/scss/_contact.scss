@@ -1,0 +1,159 @@
+.contact-section {
+    padding: 120px 0 80px 0;
+
+    background-color: $contact-section-color;
+
+    &-company {
+
+        &-logo {
+            margin-bottom: 30px;
+
+            &__name {
+                font-size: 34px;
+                font-weight: normal;
+
+                color: #fff;
+            }
+        }
+
+        &__description {
+            margin-bottom: 30px;
+
+            color: $title-color;
+        }
+
+        &-btn {
+
+            &__link {
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 1.4;
+                text-transform: capitalize;
+
+                margin-right: 10px;
+
+                color: $brand-color;
+
+                &:hover {
+                    color: $brand-color;
+                }
+            }
+        }
+    }
+
+    &-posts {
+
+        &__title {
+            margin-bottom: 30px;
+
+            text-transform: capitalize;
+
+            color: #fff;
+        }
+
+        &-block {
+            margin-bottom: 20px;
+
+            border-bottom: 1px solid $contact-border-color;
+
+            &:hover {
+                cursor: pointer;
+
+                .contact-section-posts-block__date {
+                    color: #fff;
+                }
+
+                .contact-section-posts-block__text {
+                    color: $brand-color;
+                }
+            }
+
+            &__date {
+                font-size: 12px;
+
+                color: $contact-date-color;
+            }
+
+            &__text {
+                font-size: 14px;
+                font-weight: 300;
+
+                color: $title-color;
+            }
+        }
+    }
+
+    &-twitter {
+
+        &__title {
+            margin-bottom: 30px;
+
+            text-transform: capitalize;
+
+            color: #fff;
+        }
+
+        &-block {
+            margin-bottom: 20px;
+
+            border-bottom: 1px solid $contact-border-color;
+
+            &:last-child {
+                border-bottom: none;
+            }
+
+            &__message {
+                margin-bottom: 10px;
+
+                font-size: 14px;
+                font-weight: 300;
+
+                color: $title-color;
+            }
+
+            &__link {
+                font-size: 14px;
+                font-weight: 300;
+
+                color: $link-color;
+
+                &:hover {
+                    color: $link-color;
+                }
+            }
+
+            &__time {
+                display: block;
+
+                margin-bottom: 24px;
+
+                font-size: 12px;
+
+                color: $contact-date-color;
+            }
+        }
+    }
+
+    &-widgets {
+        max-width: 290px;
+
+        &__title {
+            margin-bottom: 30px;
+
+            text-transform: capitalize;
+
+            color: #fff;
+        }
+
+        &-block {
+            
+            
+        }
+    }
+
+    &-company,
+    &-posts,
+    &-twitter {
+        max-width: 260px;
+    }
+}

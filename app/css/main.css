@@ -569,6 +569,252 @@ button {
   background-color: #fff;
 }
 
+.post-section {
+  padding: 82px 0;
+}
+
+.post-section-header__title {
+  margin-bottom: 30px;
+}
+
+.post-section-header__description {
+  max-width: 760px;
+  margin: 0 auto 40px auto;
+}
+
+.post-section-card-content {
+  padding: 30px;
+  border: 1px solid #fbfaf8;
+}
+
+.post-section-card-content__title {
+  margin-bottom: 20px;
+}
+
+.post-section-card-content__description {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.post-section-card-content-btn__link {
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.4;
+  text-transform: capitalize;
+  color: #c7b299;
+}
+
+.post-section-card-content-btn__link:hover {
+  color: #c7b299;
+}
+
+.post-section-card:hover .post-section-card-img__image {
+  -webkit-filter: brightness(30%);
+  filter: brightness(30%);
+}
+
+.post-section-card:hover .post-section-card-content {
+  border: 1px solid #362f2d;
+  background-color: #362f2d;
+}
+
+.post-section-card:hover .post-section-card-content__title {
+  color: #c7b299;
+}
+
+.post-section-card:hover .post-section-card-content__description {
+  color: #fff;
+}
+
+.post-section-buttons {
+  max-width: 50px;
+  margin: 0 auto;
+}
+
+.post-section-buttons .carousel-control-prev,
+.post-section-buttons .carousel-control-next {
+  width: 22px;
+  height: 22px;
+}
+
+.post-section-buttons .carousel-control-prev-icon,
+.post-section-buttons .carousel-control-next-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.post-section-buttons .carousel-control-prev-icon:hover feFlood,
+.post-section-buttons .carousel-control-next-icon:hover feFlood {
+  flood-color: #c9b49c;
+}
+
+.company-section {
+  padding: 140px 0;
+  background: rgba(0, 0, 0, 0.7) url(../img/company-bg.png) no-repeat top center/cover;
+  background-blend-mode: darken;
+}
+
+.contact-section {
+  padding: 120px 0 80px 0;
+  background-color: #191919;
+}
+
+.contact-section-company-logo {
+  margin-bottom: 30px;
+}
+
+.contact-section-company-logo__name {
+  font-size: 34px;
+  font-weight: normal;
+  color: #fff;
+}
+
+.contact-section-company__description {
+  margin-bottom: 30px;
+  color: #555555;
+}
+
+.contact-section-company-btn__link {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.4;
+  text-transform: capitalize;
+  margin-right: 10px;
+  color: #c7b299;
+}
+
+.contact-section-company-btn__link:hover {
+  color: #c7b299;
+}
+
+.contact-section-posts__title {
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.contact-section-posts-block {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #252525;
+}
+
+.contact-section-posts-block:hover {
+  cursor: pointer;
+}
+
+.contact-section-posts-block:hover .contact-section-posts-block__date {
+  color: #fff;
+}
+
+.contact-section-posts-block:hover .contact-section-posts-block__text {
+  color: #c7b299;
+}
+
+.contact-section-posts-block__date {
+  font-size: 12px;
+  color: #363636;
+}
+
+.contact-section-posts-block__text {
+  font-size: 14px;
+  font-weight: 300;
+  color: #555555;
+}
+
+.contact-section-twitter__title {
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.contact-section-twitter-block {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #252525;
+}
+
+.contact-section-twitter-block:last-child {
+  border-bottom: none;
+}
+
+.contact-section-twitter-block__message {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #555555;
+}
+
+.contact-section-twitter-block__link {
+  font-size: 14px;
+  font-weight: 300;
+  color: #00bff3;
+}
+
+.contact-section-twitter-block__link:hover {
+  color: #00bff3;
+}
+
+.contact-section-twitter-block__time {
+  display: block;
+  margin-bottom: 24px;
+  font-size: 12px;
+  color: #363636;
+}
+
+.contact-section-widgets {
+  max-width: 290px;
+}
+
+.contact-section-widgets__title {
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.contact-section-company, .contact-section-posts, .contact-section-twitter {
+  max-width: 260px;
+}
+
+.footer-section {
+  padding: 40px 0;
+  background-color: #111111;
+}
+
+.footer-section-left__copy {
+  font-family: 'Montserrat';
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #555555;
+}
+
+.footer-section-left__link {
+  margin: 0 10px;
+  color: #949494;
+}
+
+.footer-section-left__link:hover {
+  text-decoration: none;
+  color: #c7b299;
+}
+
+.footer-section-right__additional-info {
+  font-family: 'Montserrat';
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #555555;
+}
+
+.footer-section-right__link {
+  color: #949494;
+}
+
+.footer-section-right__link:hover {
+  text-decoration: none;
+  color: #c7b299;
+}
+
 .container {
   max-width: 1230px;
   padding: 0 15px;

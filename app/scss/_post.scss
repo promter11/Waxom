@@ -1,0 +1,99 @@
+.post-section {
+    padding: 82px 0;
+
+    &-header {
+
+        &__title {
+            margin-bottom: 30px;
+        }
+
+        &__description {
+            max-width: 760px;
+
+            margin: 0 auto 40px auto;
+        }
+    }
+
+    &-card {
+
+        &-content {
+            padding: 30px;
+
+            border: 1px solid $block-bg-color;
+
+            &__title {
+                margin-bottom: 20px;
+            }
+
+            &__description {
+                font-size: 14px;
+
+                margin-bottom: 30px;
+            }
+
+            &-btn {
+
+                &__link {
+                    margin-right: 10px;
+
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 1.4;
+                    text-transform: capitalize;
+
+                    color: $brand-color;
+
+                    &:hover {
+                        color: $brand-color;
+                    }
+                }
+            }
+        }
+
+        &:hover {
+
+            .post-section-card-img__image {
+                filter: brightness(30%);
+            }
+
+            .post-section-card-content {
+                border: 1px solid $project-block-color;
+
+                background-color: $project-block-color;
+
+                &__title {
+                    color: $brand-color;
+                }
+
+                &__description {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    &-buttons {
+        max-width: 50px;
+
+        margin: 0 auto;
+
+        .carousel-control-prev,
+        .carousel-control-next {
+            width: 22px;
+            height: 22px;
+        }
+
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            width: 22px;
+            height: 22px;
+
+            &:hover {
+                    
+                feFlood {
+                    flood-color: $arrow-color;
+                }
+            }
+        }
+    }
+}

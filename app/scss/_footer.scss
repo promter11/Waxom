@@ -1,0 +1,51 @@
+.footer-section {
+    padding: 40px 0;
+
+    background-color: $footer-section-color;
+
+    &-left {
+
+        &__copy {
+            font-family: 'Montserrat';
+            font-size: 13px;
+            line-height: 1.5;
+            font-weight: 300;
+
+            color: $title-color;
+        }
+
+        &__link {
+            margin: 0 10px;
+
+            color: $description-color;
+
+            &:hover {
+                text-decoration: none;
+
+                color: $brand-color;
+            }
+        }
+    }
+
+    &-right {
+
+        &__additional-info {
+            font-family: 'Montserrat';
+            font-size: 13px;
+            line-height: 1.5;
+            font-weight: 300;
+
+            color: $title-color;
+        }
+
+        &__link {
+            color: $description-color;
+
+            &:hover {
+                text-decoration: none;
+
+                color: $brand-color;
+            }
+        }
+    }
+}
