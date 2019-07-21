@@ -1,9 +1,10 @@
 .stats-section {
-    padding: 66px 0 56px 0;
+    padding: 66px 0 16px 0;
 
     background-image: linear-gradient(90deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
 
     &-block {
+        margin-bottom: 40px;
 
         &__image {
             margin-bottom: 30px;

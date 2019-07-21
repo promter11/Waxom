@@ -3,13 +3,13 @@
 
     &-header {
 
-        h3 {
+        &__title {
             text-transform: capitalize;
 
             margin-bottom: 30px;
         }
 
-        p {
+        &__description {
             max-width: 760px;
 
             margin-bottom: 40px;
@@ -20,7 +20,7 @@
 
             &-link {
                 padding: 15px;
-                margin: 0 5px;
+                margin: 5px;
 
                 text-transform: capitalize;
 
@@ -38,11 +38,41 @@
     }
 
     &-block {
+        max-width: 370px;
+
+        margin: 0 auto;
+
         margin-bottom: 30px;
 
         &-img {
-            width: 370px;
             height: 237px;
+
+            &__chain-icon,
+            &__magnifier-icon {
+                cursor: pointer;
+
+                display: none;
+            }
+
+            &__chain-icon {
+                
+                &:hover {
+                    
+                    path {
+                        fill: $brand-color;
+                    }
+                }
+            }
+
+            &__magnifier-icon {
+
+                &:hover {
+
+                    feFlood {
+                        flood-color: $brand-color;
+                    }
+                }
+            }
         }
 
         &-img-1 {
@@ -74,6 +104,11 @@
             .project-section-block-img {
                 background-blend-mode: darken;
                 background-color: rgba(0, 0, 0, 0.7);
+
+                &__chain-icon,
+                &__magnifier-icon {
+                    display: block;
+                }
             }
 
             .project-section-block-content {

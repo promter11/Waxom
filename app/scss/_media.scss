@@ -1,17 +1,158 @@
 @media only screen and (min-width: 320px) {
+    .header-section {
 
+        .carousel {
+
+            &-caption {
+
+                h2 {
+                    font-size: 16px;
+                }
+
+                h1 {
+                    font-size: 20px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .navbar {
+            
+            .navbar-collapse {
+                position: fixed;
+                top: 0;
+                left: 0;
+
+                width: 50%;
+                height: auto;
+
+                background-color: $title-color;
+
+                .nav {
+
+                    &-link {
+                        padding: 36px;
+                    }
+
+                    &-item {
+
+                        &:last-child {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .idea-section {
+
+        .idea-img-block {
+
+            &__left-image,
+            &__right-image {
+                display: none;
+            }
+
+            &__center-image {
+                position: relative;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 576px) {
-    
+    .header-section {
+
+        .carousel {
+
+            &-caption {
+
+                h2 {
+                    font-size: 24px;
+                }
+
+                h1 {
+                    font-size: 36px;
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 768px) {
-
+    
 }
 
 @media only screen and (min-width: 992px) {
+    .header-section {
 
+        .carousel {
+
+            &-caption {
+
+                h2 {
+                    font-size: 30px;
+                }
+
+                h1 {
+                    font-size: 48px;
+                }
+
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .navbar {
+            
+            .navbar-collapse {
+                position: static;
+
+                width: 100%;
+
+                background-color: transparent;
+
+                .nav {
+
+                    &-link {
+                        padding: 0;
+                    }
+
+                    &-item {
+
+                        &:last-child {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .idea-section {
+
+        .idea-img-block {
+            height: 482px;
+
+            &__left-image,
+            &__right-image {
+                display: block;
+            }
+
+            &__center-image {
+                position: absolute;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 1200px) {

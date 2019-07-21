@@ -135,7 +135,9 @@
     }
 
     &-widgets {
-        max-width: 290px;
+        max-width: 300px;
+
+        margin: 0 auto 40px auto;
 
         &__title {
             margin-bottom: 30px;
@@ -144,16 +146,13 @@
 
             color: #fff;
         }
-
-        &-block {
-            
-            
-        }
     }
 
     &-company,
     &-posts,
     &-twitter {
-        max-width: 260px;
+        max-width: 270px;
+
+        margin: 0 auto 40px auto;
     }
 }

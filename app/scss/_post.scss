@@ -4,6 +4,8 @@
     &-header {
 
         &__title {
+            text-transform: capitalize;
+
             margin-bottom: 30px;
         }
 
@@ -15,6 +17,55 @@
     }
 
     &-card {
+
+        &-img {
+            position: relative;
+
+            &__image {
+                max-width: 100%;
+                height: auto;
+            }
+
+            &-date {
+                position: absolute;
+                top: 20px;
+                left: 20px;
+
+                &__number {
+                    display: block;
+
+                    font-family: 'Montserrat';
+                    font-weight: 300;
+                    font-size: 24px;
+                    line-height: 0.8;
+                    text-align: center;
+
+                    padding: 10px;
+
+                    border-radius: 4px 4px 0 0;
+
+                    background-color: $contact-date-color;
+                    color: #fff;
+                }
+
+                &__month {
+                    display: block;
+
+                    font-family: 'Roboto';
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 1.6;
+                    text-align: center;
+
+                    padding: 5px 10px;
+
+                    border-radius: 0 0 4px 4px;
+
+                    background-color: $contact-border-color;
+                    color: #fff;
+                }
+            }
+        }
 
         &-content {
             padding: 30px;
@@ -52,8 +103,22 @@
 
         &:hover {
 
-            .post-section-card-img__image {
-                filter: brightness(30%);
+            .post-section-card-img {
+
+                &__image {
+                    filter: brightness(30%);
+                }
+                
+                &-date {
+
+                    &__number {
+                        background-color: $brand-color;
+                    }
+
+                    &__month {
+                        background-color: $month-color;
+                    }
+                }
             }
 
             .post-section-card-content {

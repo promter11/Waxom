@@ -10,7 +10,7 @@
         }
     
         p {
-            width: 770px;
+            max-width: 770px;
     
             margin: 0 auto 38px auto;
     
@@ -21,16 +21,13 @@
     .idea-img-block {
         position: relative;
 
-        height: 482px;
-
         &__left-image {
             position: absolute;
             top: 82px;
-            left: 0;
+            left: -15px;
         }
 
         &__center-image {
-            position: absolute;
             top: 0;
             left: 50%;
 
@@ -42,7 +39,14 @@
         &__right-image {
             position: absolute;
             top: 82px;
-            right: 0;
+            right: -15px;
+        }
+
+        &__left-image,
+        &__center-image,
+        &__right-image {
+            max-width: 100%;
+            height: auto;
         }
     }
 
@@ -52,13 +56,11 @@
         background-image: linear-gradient(90deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);      
 
         .idea-theme-block {
-            
+
             &__description {
                 font-family: 'Raleway';
                 font-weight: normal;
                 font-size: 28px;
-
-                margin: 0;
 
                 color: #fff;
 

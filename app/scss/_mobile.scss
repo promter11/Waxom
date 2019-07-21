@@ -1,7 +1,16 @@
 .mobile-section {
     padding-top: 78px;
 
+    &-img {
+
+        &__image {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
     &-content {
+        margin-top: 20px;
 
         &__title {
             margin-bottom: 40px;

@@ -19,7 +19,10 @@
                     <img class="navbar-brand-icon" src="img/waxom-logo.png" alt="Waxom Logo">
                     <span class="navbar-brand-text">Waxom</span>
                 </a>
-                <div class="collapse navbar-collapse">
+                <button class="navbar-toggler" type="button" data-target="#headerNav" data-toggle="collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="headerNav" class="collapse navbar-collapse">
                     <ul class="navbar-nav ml-auto align-items-center">
                         <li class="nav-item">
                             <a class="nav-link" href="#">Home</a>
@@ -47,7 +50,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                                <svg class="search-icon ml-5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px">
+                                <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px">
                                     <defs>
                                         <filter id="search">
                                             <feFlood flood-color="rgb(255, 255, 255)" flood-opacity="1" result="floodOut" />
@@ -81,7 +84,7 @@
                         <h2>Unique and Modern Design</h2>
                         <h1>Portfolio PSD Template</h1>
                         <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet dorning id quod mazim placerat facer possim assum.</p>
-                        <button>Get started</button>
+                        <button type="button">Get started</button>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -90,7 +93,7 @@
                         <h2>Unique and Modern Design</h2>
                         <h1>Portfolio PSD Template</h1>
                         <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet dorning id quod mazim placerat facer possim assum.</p>
-                        <button>Get started</button>
+                        <button type="button">Get started</button>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -99,7 +102,7 @@
                         <h2>Unique and Modern Design</h2>
                         <h1>Portfolio PSD Template</h1>
                         <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet dorning id quod mazim placerat facer possim assum.</p>
-                        <button>Get started</button>
+                        <button type="button">Get started</button>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -108,7 +111,7 @@
                         <h2>Unique and Modern Design</h2>
                         <h1>Portfolio PSD Template</h1>
                         <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet dorning id quod mazim placerat facer possim assum.</p>
-                        <button>Get started</button>
+                        <button type="button">Get started</button>
                     </div>
                 </div>
                 <div class="carousel-item">
@@ -117,7 +120,7 @@
                         <h2>Unique and Modern Design</h2>
                         <h1>Portfolio PSD Template</h1>
                         <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet dorning id quod mazim placerat facer possim assum.</p>
-                        <button>Get started</button>
+                        <button type="button">Get started</button>
                     </div>
                 </div>
             </div>
@@ -132,9 +135,9 @@
         </div>
     </header>
     <section class="feature-section">
-        <div class="row no-gutters">
-            <div class="container d-flex text-center">
-                <div class="feature-section-block col-3">
+        <div class="container text-center">
+            <div class="row">
+                <div class="feature-section-block col-sm-12 col-md-6 col-lg-3">
                     <svg class="feature-section-block__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50px" height="50px">
                         <defs>
                             <filter id="pencil">
@@ -151,7 +154,7 @@
                     <p class="feature-section-block__description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet dorning id quod mazim.</p>
                     <div class="feature-section-block__line"></div>
                 </div>
-                <div class="feature-section-block col-3">
+                <div class="feature-section-block col-sm-12 col-md-6 col-lg-3">
                     <svg class="feature-section-block__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50px" height="50px">
                         <defs>
                             <filter id="layers">
@@ -168,7 +171,7 @@
                     <p class="feature-section-block__description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet dorning id quod mazim.</p>
                     <div class="feature-section-block__line"></div>
                 </div>
-                <div class="feature-section-block col-3">
+                <div class="feature-section-block col-sm-12 col-md-6 col-lg-3">
                     <svg class="feature-section-block__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50px" height="50px">
                         <defs>
                             <filter id="mechanism">
@@ -185,7 +188,7 @@
                     <p class="feature-section-block__description">Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet dorning id quod mazim.</p>
                     <div class="feature-section-block__line"></div>
                 </div>
-                <div class="feature-section-block col-3">
+                <div class="feature-section-block col-sm-12 col-md-6 col-lg-3">
                     <svg class="feature-section-block__image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50px" height="50px">
                         <defs>
                             <filter id="case">
@@ -207,17 +210,17 @@
     </section>
     <section class="idea-section">
         <div class="container">
-            <div class="idea-content-block text-center">
-                <div class="row no-gutters">
-                    <div class="col-12">
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <div class="idea-content-block text-center">
                         <h3>Waxom is Realization of your Ideas.</h3>
                         <p>Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
                     </div>
                 </div>
             </div>
-            <div class="idea-img-block">
-                <div class="row no-gutters">
-                    <div class="col-12">
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <div class="idea-img-block mb-3 mb-md-0">
                         <img class="idea-img-block__left-image" src="img/browser-left.png" alt="Browser Image">
                         <img class="idea-img-block__center-image" src="img/browser-center.png" alt="Browser Image">
                         <img class="idea-img-block__right-image" src="img/browser-right.png" alt="Browser Image">
@@ -227,15 +230,17 @@
         </div>
         <div class="idea-theme-section">
             <div class="container">
-                <div class="idea-theme-block">
-                    <div class="row no-gutters align-items-center">
-                        <div class="col-10">
+                <div class="row no-gutters text-center text-md-left align-items-center">
+                    <div class="col-sm-12 col-md-9 col-lg-10">
+                        <div class="idea-theme-block">
                             <p class="idea-theme-block__description"><span class="idea-theme-block__description--colored">Waxom</span> Multipurpose WordPress Theme
                                 <span class="idea-theme-block__description--blocked">Don't Forget to Rate the Template. Thanks so much!</span>
                             </p>
                         </div>
-                        <div class="col-2">
-                            <button>Purchase now</button>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-lg-2">
+                        <div class="idea-theme-btn">
+                            <button type="button">Purchase now</button>
                         </div>
                     </div>
                 </div>
@@ -247,9 +252,9 @@
             <div class="row no-gutters">
                 <div class="col-12">
                     <div class="project-section-header d-flex flex-column align-items-center text-center">
-                        <h3>Our latest projects</h3>
-                        <p>Investigationes demonstraverunt lectories legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
-                        <ul class="nav">
+                        <h3 class="project-section-header__title">Our latest projects</h3>
+                        <p class="project-section-header__description">Investigationes demonstraverunt lectories legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+                        <ul class="nav d-flex justify-content-center">
                             <li class="nav-item">
                                 <a class="nav-link" href="#">All</a>
                             </li>
@@ -269,55 +274,151 @@
                     </div>
                 </div>
             </div>
-            <div class="row no-gutters">
-                <div class="col-4">
+            <div class="row no-gutters align-items-center">
+                <div class="col-sm-12 col-md-6 col-xl-4">
                     <div class="project-section-block">
-                        <div class="project-section-block-img project-section-block-img-1"></div>
+                        <div class="project-section-block-img project-section-block-img-1 d-flex justify-content-center align-items-center">
+                            <svg class="project-section-block-img__chain-icon mr-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="26px">
+                                <path fill-rule="evenodd" fill="rgb(255, 255, 255)" d="M23.499,11.242 L21.573,13.170 L18.386,16.359 C18.233,16.529 18.045,16.683 17.875,16.819 C16.102,18.217 13.750,18.524 11.722,17.724 C10.972,17.433 10.256,16.973 9.643,16.359 L12.284,13.715 C13.239,14.670 14.790,14.670 15.744,13.715 L17.772,11.686 L20.857,8.599 C21.812,7.644 21.812,6.091 20.857,5.137 C19.903,4.182 18.352,4.182 17.397,5.137 L14.943,7.593 C13.409,6.877 11.654,6.757 10.035,7.217 L14.756,2.494 C17.159,0.089 21.096,0.089 23.499,2.494 C25.919,4.915 25.919,8.837 23.499,11.242 ZM14.262,8.293 C15.011,8.582 15.727,9.042 16.341,9.656 L13.699,12.301 C12.745,11.345 11.194,11.345 10.239,12.301 L5.126,17.416 C4.171,18.372 4.171,19.922 5.126,20.878 C6.080,21.834 7.631,21.834 8.586,20.878 L10.938,18.524 C12.949,19.327 13.495,19.394 15.846,18.849 L11.228,23.521 C8.825,25.927 4.887,25.927 2.484,23.521 C0.081,21.117 0.081,17.178 2.484,14.774 L7.597,9.656 C7.665,9.589 7.751,9.503 7.836,9.435 C9.625,7.831 12.131,7.439 14.262,8.293 Z"/>
+                            </svg>
+                            <svg class="project-section-block-img__magnifier-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="25px">
+                                <defs>
+                                <filter id="magnifier-1">
+                                    <feFlood flood-color="rgb(255, 255, 255)" flood-opacity="1" result="floodOut" />
+                                    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+                                    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+                                </filter>
+                                </defs>
+                                <g filter="url(#magnifier-1)">
+                                    <path fill-rule="evenodd" fill="rgb(0, 0, 0)" d="M25.456,24.172 C25.135,24.489 24.714,24.646 24.293,24.646 C23.873,24.646 23.451,24.489 23.130,24.172 L18.795,19.901 C16.902,21.348 14.535,22.218 11.959,22.218 C5.793,22.218 0.777,17.276 0.777,11.202 C0.777,5.128 5.793,0.186 11.959,0.186 C18.125,0.186 23.141,5.128 23.141,11.202 C23.141,13.572 22.370,15.764 21.073,17.563 L25.456,21.881 C26.098,22.514 26.098,23.540 25.456,24.172 ZM11.960,2.778 C7.245,2.778 3.409,6.557 3.409,11.202 C3.409,15.847 7.245,19.626 11.960,19.627 C14.064,19.627 15.990,18.871 17.481,17.624 C17.941,17.240 18.355,16.805 18.724,16.336 C19.840,14.913 20.510,13.135 20.510,11.202 C20.510,6.557 16.674,2.778 11.960,2.778 ZM16.810,9.581 C16.625,9.668 16.429,9.711 16.234,9.711 C15.747,9.711 15.280,9.444 15.052,8.983 C14.347,7.559 12.911,6.674 11.304,6.674 C10.578,6.674 9.989,6.094 9.989,5.377 C9.989,4.663 10.578,4.082 11.304,4.082 C13.925,4.082 16.268,5.525 17.417,7.847 C17.735,8.491 17.464,9.267 16.810,9.581 Z"/>
+                                </g>
+                            </svg>
+                        </div>
                         <div class="project-section-block-content">
                             <h6 class="project-section-block-content__title">Claritas Etiam Processus</h6>
                             <span class="project-section-block-content__type">Photography, Nature</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-12 col-md-6 col-xl-4">
                     <div class="project-section-block">
-                        <div class="project-section-block-img project-section-block-img-2"></div>
+                        <div class="project-section-block-img project-section-block-img-2 d-flex justify-content-center align-items-center">
+                            <svg class="project-section-block-img__chain-icon mr-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="26px">
+                                <path fill-rule="evenodd" fill="rgb(255, 255, 255)" d="M23.499,11.242 L21.573,13.170 L18.386,16.359 C18.233,16.529 18.045,16.683 17.875,16.819 C16.102,18.217 13.750,18.524 11.722,17.724 C10.972,17.433 10.256,16.973 9.643,16.359 L12.284,13.715 C13.239,14.670 14.790,14.670 15.744,13.715 L17.772,11.686 L20.857,8.599 C21.812,7.644 21.812,6.091 20.857,5.137 C19.903,4.182 18.352,4.182 17.397,5.137 L14.943,7.593 C13.409,6.877 11.654,6.757 10.035,7.217 L14.756,2.494 C17.159,0.089 21.096,0.089 23.499,2.494 C25.919,4.915 25.919,8.837 23.499,11.242 ZM14.262,8.293 C15.011,8.582 15.727,9.042 16.341,9.656 L13.699,12.301 C12.745,11.345 11.194,11.345 10.239,12.301 L5.126,17.416 C4.171,18.372 4.171,19.922 5.126,20.878 C6.080,21.834 7.631,21.834 8.586,20.878 L10.938,18.524 C12.949,19.327 13.495,19.394 15.846,18.849 L11.228,23.521 C8.825,25.927 4.887,25.927 2.484,23.521 C0.081,21.117 0.081,17.178 2.484,14.774 L7.597,9.656 C7.665,9.589 7.751,9.503 7.836,9.435 C9.625,7.831 12.131,7.439 14.262,8.293 Z"/>
+                            </svg>
+                            <svg class="project-section-block-img__magnifier-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="25px">
+                                <defs>
+                                <filter id="magnifier-2">
+                                    <feFlood flood-color="rgb(255, 255, 255)" flood-opacity="1" result="floodOut" />
+                                    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+                                    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+                                </filter>
+                                </defs>
+                                <g filter="url(#magnifier-2)">
+                                    <path fill-rule="evenodd" fill="rgb(0, 0, 0)" d="M25.456,24.172 C25.135,24.489 24.714,24.646 24.293,24.646 C23.873,24.646 23.451,24.489 23.130,24.172 L18.795,19.901 C16.902,21.348 14.535,22.218 11.959,22.218 C5.793,22.218 0.777,17.276 0.777,11.202 C0.777,5.128 5.793,0.186 11.959,0.186 C18.125,0.186 23.141,5.128 23.141,11.202 C23.141,13.572 22.370,15.764 21.073,17.563 L25.456,21.881 C26.098,22.514 26.098,23.540 25.456,24.172 ZM11.960,2.778 C7.245,2.778 3.409,6.557 3.409,11.202 C3.409,15.847 7.245,19.626 11.960,19.627 C14.064,19.627 15.990,18.871 17.481,17.624 C17.941,17.240 18.355,16.805 18.724,16.336 C19.840,14.913 20.510,13.135 20.510,11.202 C20.510,6.557 16.674,2.778 11.960,2.778 ZM16.810,9.581 C16.625,9.668 16.429,9.711 16.234,9.711 C15.747,9.711 15.280,9.444 15.052,8.983 C14.347,7.559 12.911,6.674 11.304,6.674 C10.578,6.674 9.989,6.094 9.989,5.377 C9.989,4.663 10.578,4.082 11.304,4.082 C13.925,4.082 16.268,5.525 17.417,7.847 C17.735,8.491 17.464,9.267 16.810,9.581 Z"/>
+                                </g>
+                            </svg>
+                        </div>
                         <div class="project-section-block-content">
                             <h6 class="project-section-block-content__title">Claritas Etiam Processus</h6>
                             <span class="project-section-block-content__type">Photography, Nature</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-12 col-md-6 col-xl-4">
                     <div class="project-section-block">
-                        <div class="project-section-block-img project-section-block-img-3"></div>
+                        <div class="project-section-block-img project-section-block-img-3 d-flex justify-content-center align-items-center">
+                            <svg class="project-section-block-img__chain-icon mr-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="26px">
+                                <path fill-rule="evenodd" fill="rgb(255, 255, 255)" d="M23.499,11.242 L21.573,13.170 L18.386,16.359 C18.233,16.529 18.045,16.683 17.875,16.819 C16.102,18.217 13.750,18.524 11.722,17.724 C10.972,17.433 10.256,16.973 9.643,16.359 L12.284,13.715 C13.239,14.670 14.790,14.670 15.744,13.715 L17.772,11.686 L20.857,8.599 C21.812,7.644 21.812,6.091 20.857,5.137 C19.903,4.182 18.352,4.182 17.397,5.137 L14.943,7.593 C13.409,6.877 11.654,6.757 10.035,7.217 L14.756,2.494 C17.159,0.089 21.096,0.089 23.499,2.494 C25.919,4.915 25.919,8.837 23.499,11.242 ZM14.262,8.293 C15.011,8.582 15.727,9.042 16.341,9.656 L13.699,12.301 C12.745,11.345 11.194,11.345 10.239,12.301 L5.126,17.416 C4.171,18.372 4.171,19.922 5.126,20.878 C6.080,21.834 7.631,21.834 8.586,20.878 L10.938,18.524 C12.949,19.327 13.495,19.394 15.846,18.849 L11.228,23.521 C8.825,25.927 4.887,25.927 2.484,23.521 C0.081,21.117 0.081,17.178 2.484,14.774 L7.597,9.656 C7.665,9.589 7.751,9.503 7.836,9.435 C9.625,7.831 12.131,7.439 14.262,8.293 Z"/>
+                            </svg>
+                            <svg class="project-section-block-img__magnifier-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="25px">
+                                <defs>
+                                <filter id="magnifier-3">
+                                    <feFlood flood-color="rgb(255, 255, 255)" flood-opacity="1" result="floodOut" />
+                                    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+                                    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+                                </filter>
+                                </defs>
+                                <g filter="url(#magnifier-3)">
+                                    <path fill-rule="evenodd" fill="rgb(0, 0, 0)" d="M25.456,24.172 C25.135,24.489 24.714,24.646 24.293,24.646 C23.873,24.646 23.451,24.489 23.130,24.172 L18.795,19.901 C16.902,21.348 14.535,22.218 11.959,22.218 C5.793,22.218 0.777,17.276 0.777,11.202 C0.777,5.128 5.793,0.186 11.959,0.186 C18.125,0.186 23.141,5.128 23.141,11.202 C23.141,13.572 22.370,15.764 21.073,17.563 L25.456,21.881 C26.098,22.514 26.098,23.540 25.456,24.172 ZM11.960,2.778 C7.245,2.778 3.409,6.557 3.409,11.202 C3.409,15.847 7.245,19.626 11.960,19.627 C14.064,19.627 15.990,18.871 17.481,17.624 C17.941,17.240 18.355,16.805 18.724,16.336 C19.840,14.913 20.510,13.135 20.510,11.202 C20.510,6.557 16.674,2.778 11.960,2.778 ZM16.810,9.581 C16.625,9.668 16.429,9.711 16.234,9.711 C15.747,9.711 15.280,9.444 15.052,8.983 C14.347,7.559 12.911,6.674 11.304,6.674 C10.578,6.674 9.989,6.094 9.989,5.377 C9.989,4.663 10.578,4.082 11.304,4.082 C13.925,4.082 16.268,5.525 17.417,7.847 C17.735,8.491 17.464,9.267 16.810,9.581 Z"/>
+                                </g>
+                            </svg>
+                        </div>
                         <div class="project-section-block-content">
                             <h6 class="project-section-block-content__title">Claritas Etiam Processus</h6>
                             <span class="project-section-block-content__type">Photography, Nature</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-12 col-md-6 col-xl-4">
                     <div class="project-section-block">
-                        <div class="project-section-block-img project-section-block-img-4"></div>
+                        <div class="project-section-block-img project-section-block-img-4 d-flex justify-content-center align-items-center">
+                            <svg class="project-section-block-img__chain-icon mr-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="26px">
+                                <path fill-rule="evenodd" fill="rgb(255, 255, 255)" d="M23.499,11.242 L21.573,13.170 L18.386,16.359 C18.233,16.529 18.045,16.683 17.875,16.819 C16.102,18.217 13.750,18.524 11.722,17.724 C10.972,17.433 10.256,16.973 9.643,16.359 L12.284,13.715 C13.239,14.670 14.790,14.670 15.744,13.715 L17.772,11.686 L20.857,8.599 C21.812,7.644 21.812,6.091 20.857,5.137 C19.903,4.182 18.352,4.182 17.397,5.137 L14.943,7.593 C13.409,6.877 11.654,6.757 10.035,7.217 L14.756,2.494 C17.159,0.089 21.096,0.089 23.499,2.494 C25.919,4.915 25.919,8.837 23.499,11.242 ZM14.262,8.293 C15.011,8.582 15.727,9.042 16.341,9.656 L13.699,12.301 C12.745,11.345 11.194,11.345 10.239,12.301 L5.126,17.416 C4.171,18.372 4.171,19.922 5.126,20.878 C6.080,21.834 7.631,21.834 8.586,20.878 L10.938,18.524 C12.949,19.327 13.495,19.394 15.846,18.849 L11.228,23.521 C8.825,25.927 4.887,25.927 2.484,23.521 C0.081,21.117 0.081,17.178 2.484,14.774 L7.597,9.656 C7.665,9.589 7.751,9.503 7.836,9.435 C9.625,7.831 12.131,7.439 14.262,8.293 Z"/>
+                            </svg>
+                            <svg class="project-section-block-img__magnifier-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="25px">
+                                <defs>
+                                <filter id="magnifier-4">
+                                    <feFlood flood-color="rgb(255, 255, 255)" flood-opacity="1" result="floodOut" />
+                                    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+                                    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+                                </filter>
+                                </defs>
+                                <g filter="url(#magnifier-4)">
+                                    <path fill-rule="evenodd" fill="rgb(0, 0, 0)" d="M25.456,24.172 C25.135,24.489 24.714,24.646 24.293,24.646 C23.873,24.646 23.451,24.489 23.130,24.172 L18.795,19.901 C16.902,21.348 14.535,22.218 11.959,22.218 C5.793,22.218 0.777,17.276 0.777,11.202 C0.777,5.128 5.793,0.186 11.959,0.186 C18.125,0.186 23.141,5.128 23.141,11.202 C23.141,13.572 22.370,15.764 21.073,17.563 L25.456,21.881 C26.098,22.514 26.098,23.540 25.456,24.172 ZM11.960,2.778 C7.245,2.778 3.409,6.557 3.409,11.202 C3.409,15.847 7.245,19.626 11.960,19.627 C14.064,19.627 15.990,18.871 17.481,17.624 C17.941,17.240 18.355,16.805 18.724,16.336 C19.840,14.913 20.510,13.135 20.510,11.202 C20.510,6.557 16.674,2.778 11.960,2.778 ZM16.810,9.581 C16.625,9.668 16.429,9.711 16.234,9.711 C15.747,9.711 15.280,9.444 15.052,8.983 C14.347,7.559 12.911,6.674 11.304,6.674 C10.578,6.674 9.989,6.094 9.989,5.377 C9.989,4.663 10.578,4.082 11.304,4.082 C13.925,4.082 16.268,5.525 17.417,7.847 C17.735,8.491 17.464,9.267 16.810,9.581 Z"/>
+                                </g>
+                            </svg>
+                        </div>
                         <div class="project-section-block-content">
                             <h6 class="project-section-block-content__title">Claritas Etiam Processus</h6>
                             <span class="project-section-block-content__type">Photography, Nature</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-12 col-md-6 col-xl-4">
                     <div class="project-section-block">
-                        <div class="project-section-block-img project-section-block-img-5"></div>
+                        <div class="project-section-block-img project-section-block-img-5 d-flex justify-content-center align-items-center">
+                            <svg class="project-section-block-img__chain-icon mr-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="26px">
+                                <path fill-rule="evenodd" fill="rgb(255, 255, 255)" d="M23.499,11.242 L21.573,13.170 L18.386,16.359 C18.233,16.529 18.045,16.683 17.875,16.819 C16.102,18.217 13.750,18.524 11.722,17.724 C10.972,17.433 10.256,16.973 9.643,16.359 L12.284,13.715 C13.239,14.670 14.790,14.670 15.744,13.715 L17.772,11.686 L20.857,8.599 C21.812,7.644 21.812,6.091 20.857,5.137 C19.903,4.182 18.352,4.182 17.397,5.137 L14.943,7.593 C13.409,6.877 11.654,6.757 10.035,7.217 L14.756,2.494 C17.159,0.089 21.096,0.089 23.499,2.494 C25.919,4.915 25.919,8.837 23.499,11.242 ZM14.262,8.293 C15.011,8.582 15.727,9.042 16.341,9.656 L13.699,12.301 C12.745,11.345 11.194,11.345 10.239,12.301 L5.126,17.416 C4.171,18.372 4.171,19.922 5.126,20.878 C6.080,21.834 7.631,21.834 8.586,20.878 L10.938,18.524 C12.949,19.327 13.495,19.394 15.846,18.849 L11.228,23.521 C8.825,25.927 4.887,25.927 2.484,23.521 C0.081,21.117 0.081,17.178 2.484,14.774 L7.597,9.656 C7.665,9.589 7.751,9.503 7.836,9.435 C9.625,7.831 12.131,7.439 14.262,8.293 Z"/>
+                            </svg>
+                            <svg class="project-section-block-img__magnifier-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="25px">
+                                <defs>
+                                <filter id="magnifier-5">
+                                    <feFlood flood-color="rgb(255, 255, 255)" flood-opacity="1" result="floodOut" />
+                                    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+                                    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+                                </filter>
+                                </defs>
+                                <g filter="url(#magnifier-5)">
+                                    <path fill-rule="evenodd" fill="rgb(0, 0, 0)" d="M25.456,24.172 C25.135,24.489 24.714,24.646 24.293,24.646 C23.873,24.646 23.451,24.489 23.130,24.172 L18.795,19.901 C16.902,21.348 14.535,22.218 11.959,22.218 C5.793,22.218 0.777,17.276 0.777,11.202 C0.777,5.128 5.793,0.186 11.959,0.186 C18.125,0.186 23.141,5.128 23.141,11.202 C23.141,13.572 22.370,15.764 21.073,17.563 L25.456,21.881 C26.098,22.514 26.098,23.540 25.456,24.172 ZM11.960,2.778 C7.245,2.778 3.409,6.557 3.409,11.202 C3.409,15.847 7.245,19.626 11.960,19.627 C14.064,19.627 15.990,18.871 17.481,17.624 C17.941,17.240 18.355,16.805 18.724,16.336 C19.840,14.913 20.510,13.135 20.510,11.202 C20.510,6.557 16.674,2.778 11.960,2.778 ZM16.810,9.581 C16.625,9.668 16.429,9.711 16.234,9.711 C15.747,9.711 15.280,9.444 15.052,8.983 C14.347,7.559 12.911,6.674 11.304,6.674 C10.578,6.674 9.989,6.094 9.989,5.377 C9.989,4.663 10.578,4.082 11.304,4.082 C13.925,4.082 16.268,5.525 17.417,7.847 C17.735,8.491 17.464,9.267 16.810,9.581 Z"/>
+                                </g>
+                            </svg>
+                        </div>
                         <div class="project-section-block-content">
                             <h6 class="project-section-block-content__title">Claritas Etiam Processus</h6>
                             <span class="project-section-block-content__type">Photography, Nature</span>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-12 col-md-6 col-xl-4">
                     <div class="project-section-block">
-                        <div class="project-section-block-img project-section-block-img-6"></div>
+                        <div class="project-section-block-img project-section-block-img-6 d-flex justify-content-center align-items-center">
+                            <svg class="project-section-block-img__chain-icon mr-4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="26px">
+                                <path fill-rule="evenodd" fill="rgb(255, 255, 255)" d="M23.499,11.242 L21.573,13.170 L18.386,16.359 C18.233,16.529 18.045,16.683 17.875,16.819 C16.102,18.217 13.750,18.524 11.722,17.724 C10.972,17.433 10.256,16.973 9.643,16.359 L12.284,13.715 C13.239,14.670 14.790,14.670 15.744,13.715 L17.772,11.686 L20.857,8.599 C21.812,7.644 21.812,6.091 20.857,5.137 C19.903,4.182 18.352,4.182 17.397,5.137 L14.943,7.593 C13.409,6.877 11.654,6.757 10.035,7.217 L14.756,2.494 C17.159,0.089 21.096,0.089 23.499,2.494 C25.919,4.915 25.919,8.837 23.499,11.242 ZM14.262,8.293 C15.011,8.582 15.727,9.042 16.341,9.656 L13.699,12.301 C12.745,11.345 11.194,11.345 10.239,12.301 L5.126,17.416 C4.171,18.372 4.171,19.922 5.126,20.878 C6.080,21.834 7.631,21.834 8.586,20.878 L10.938,18.524 C12.949,19.327 13.495,19.394 15.846,18.849 L11.228,23.521 C8.825,25.927 4.887,25.927 2.484,23.521 C0.081,21.117 0.081,17.178 2.484,14.774 L7.597,9.656 C7.665,9.589 7.751,9.503 7.836,9.435 C9.625,7.831 12.131,7.439 14.262,8.293 Z"/>
+                            </svg>
+                            <svg class="project-section-block-img__magnifier-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="25px">
+                                <defs>
+                                <filter id="magnifier-6">
+                                    <feFlood flood-color="rgb(255, 255, 255)" flood-opacity="1" result="floodOut" />
+                                    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+                                    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+                                </filter>
+                                </defs>
+                                <g filter="url(#magnifier-6)">
+                                    <path fill-rule="evenodd" fill="rgb(0, 0, 0)" d="M25.456,24.172 C25.135,24.489 24.714,24.646 24.293,24.646 C23.873,24.646 23.451,24.489 23.130,24.172 L18.795,19.901 C16.902,21.348 14.535,22.218 11.959,22.218 C5.793,22.218 0.777,17.276 0.777,11.202 C0.777,5.128 5.793,0.186 11.959,0.186 C18.125,0.186 23.141,5.128 23.141,11.202 C23.141,13.572 22.370,15.764 21.073,17.563 L25.456,21.881 C26.098,22.514 26.098,23.540 25.456,24.172 ZM11.960,2.778 C7.245,2.778 3.409,6.557 3.409,11.202 C3.409,15.847 7.245,19.626 11.960,19.627 C14.064,19.627 15.990,18.871 17.481,17.624 C17.941,17.240 18.355,16.805 18.724,16.336 C19.840,14.913 20.510,13.135 20.510,11.202 C20.510,6.557 16.674,2.778 11.960,2.778 ZM16.810,9.581 C16.625,9.668 16.429,9.711 16.234,9.711 C15.747,9.711 15.280,9.444 15.052,8.983 C14.347,7.559 12.911,6.674 11.304,6.674 C10.578,6.674 9.989,6.094 9.989,5.377 C9.989,4.663 10.578,4.082 11.304,4.082 C13.925,4.082 16.268,5.525 17.417,7.847 C17.735,8.491 17.464,9.267 16.810,9.581 Z"/>
+                                </g>
+                            </svg>
+                        </div>
                         <div class="project-section-block-content">
                             <h6 class="project-section-block-content__title">Claritas Etiam Processus</h6>
                             <span class="project-section-block-content__type">Photography, Nature</span>
@@ -328,7 +429,7 @@
             <div class="row no-gutters">
                 <div class="col-12">
                     <div class="project-section-button text-center">
-                        <button>Learn more</button>
+                        <button type="button">Learn more</button>
                     </div>
                 </div>
             </div>
@@ -350,13 +451,13 @@
     </section>
     <section class="mobile-section">
         <div class="container">
-            <div class="row no-gutters d-flex align-items-center">
-                <div class="col-6">
+            <div class="row no-guttersalign-items-center">
+                <div class="col-sm-12 col-md-6 text-center">
                     <div class="mobile-section-img">
-                        <img src="img/hand-img.png" alt="iPhone">
+                        <img class="mobile-section-img__image" src="img/hand-img.png" alt="iPhone">
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-sm-12 col-md-6">
                     <div class="mobile-section-content">
                         <h3 class="mobile-section-content__title">Excellent for Mobile Devices.</h3>
                         <p class="mobile-section-content__description">Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisi ut aliquip ex ea commodo consequat. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
@@ -374,7 +475,7 @@
     <section class="stats-section">
         <div class="container">
             <div class="row no-gutters d-flex justify-content-center text-center">
-                <div class="col-2">
+                <div class="col-sm-12 col-md-4 col-lg-2">
                     <div class="stats-section-block">
                         <img class="stats-section-block__image" src="img/icon-people.png" alt="People">
                         <span class="stats-section-block__number">3587</span>
@@ -382,7 +483,7 @@
                         <div class="stats-section-block__line"></div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-sm-12 col-md-4 col-lg-2">
                     <div class="stats-section-block">
                         <img class="stats-section-block__image" src="img/icon-cap.png" alt="Cup">
                         <span class="stats-section-block__number">207</span>
@@ -390,7 +491,7 @@
                         <div class="stats-section-block__line"></div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-sm-12 col-md-4 col-lg-2">
                     <div class="stats-section-block">
                         <img class="stats-section-block__image" src="img/icon-message.png" alt="Message">
                         <span class="stats-section-block__number">2500</span>
@@ -398,7 +499,7 @@
                         <div class="stats-section-block__line"></div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-sm-12 col-md-4 col-lg-2">
                     <div class="stats-section-block">
                         <img class="stats-section-block__image" src="img/icon-heart.png" alt="Heart">
                         <span class="stats-section-block__number">873</span>
@@ -406,7 +507,7 @@
                         <div class="stats-section-block__line"></div>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-sm-12 col-md-4 col-lg-2">
                     <div class="stats-section-block">
                         <img class="stats-section-block__image" src="img/icon-lunch.png" alt="Lunch">
                         <span class="stats-section-block__number">900</span>
@@ -437,6 +538,10 @@
                                         <div class="post-section-card">
                                             <div class="post-section-card-img">
                                                 <img class="post-section-card-img__image" src="img/post-img-1.png" alt="Post">
+                                                <div class="post-section-card-img-date">
+                                                    <span class="post-section-card-img-date__number">30</span>
+                                                    <span class="post-section-card-img-date__month">Sep.</span>
+                                                </div>
                                             </div>
                                             <div class="post-section-card-content">
                                                 <h6 class="post-section-card-content__title">Lorem ipsum dolor sit amet</h6>
@@ -452,6 +557,10 @@
                                         <div class="post-section-card">
                                             <div class="post-section-card-img">
                                                 <img class="post-section-card-img__image" src="img/post-img-2.png" alt="Post">
+                                                <div class="post-section-card-img-date">
+                                                    <span class="post-section-card-img-date__number">30</span>
+                                                    <span class="post-section-card-img-date__month">Sep.</span>
+                                                </div>
                                             </div>
                                             <div class="post-section-card-content">
                                                 <h6 class="post-section-card-content__title">Lorem ipsum dolor sit amet</h6>
@@ -467,6 +576,10 @@
                                         <div class="post-section-card">
                                             <div class="post-section-card-img">
                                                 <img class="post-section-card-img__image" src="img/post-img-3.png" alt="Post">
+                                                <div class="post-section-card-img-date">
+                                                    <span class="post-section-card-img-date__number">30</span>
+                                                    <span class="post-section-card-img-date__month">Sep.</span>
+                                                </div>
                                             </div>
                                             <div class="post-section-card-content">
                                                 <h6 class="post-section-card-content__title">Lorem ipsum dolor sit amet</h6>
@@ -486,6 +599,10 @@
                                         <div class="post-section-card">
                                             <div class="post-section-card-img">
                                                 <img class="post-section-card-img__image" src="img/post-img-4.png" alt="Post">
+                                                <div class="post-section-card-img-date">
+                                                    <span class="post-section-card-img-date__number">30</span>
+                                                    <span class="post-section-card-img-date__month">Sep.</span>
+                                                </div>
                                             </div>
                                             <div class="post-section-card-content">
                                                 <h6 class="post-section-card-content__title">Lorem ipsum dolor sit amet</h6>
@@ -501,6 +618,10 @@
                                         <div class="post-section-card">
                                             <div class="post-section-card-img">
                                                 <img class="post-section-card-img__image" src="img/post-img-5.png" alt="Post">
+                                                <div class="post-section-card-img-date">
+                                                    <span class="post-section-card-img-date__number">30</span>
+                                                    <span class="post-section-card-img-date__month">Sep.</span>
+                                                </div>
                                             </div>
                                             <div class="post-section-card-content">
                                                 <h6 class="post-section-card-content__title">Lorem ipsum dolor sit amet</h6>
@@ -516,6 +637,10 @@
                                         <div class="post-section-card">
                                             <div class="post-section-card-img">
                                                 <img class="post-section-card-img__image" src="img/post-img-6.png" alt="Post">
+                                                <div class="post-section-card-img-date">
+                                                    <span class="post-section-card-img-date__number">30</span>
+                                                    <span class="post-section-card-img-date__month">Sep.</span>
+                                                </div>
                                             </div>
                                             <div class="post-section-card-content">
                                                 <h6 class="post-section-card-content__title">Lorem ipsum dolor sit amet</h6>
@@ -570,16 +695,16 @@
     <section class="company-section">
         <div class="container">
             <div class="row no-gutters d-flex align-items-center text-center">
-                <div class="col-3">
+                <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
                     <img src="img/company-logo-1.png" alt="Company">
                 </div>
-                <div class="col-3">
+                <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
                     <img src="img/company-logo-2.png" alt="Company">
                 </div>
-                <div class="col-3">
+                <div class="col-sm-12 col-md-6 col-lg-3 mb-5">
                     <img src="img/company-logo-3.png" alt="Company">
                 </div>
-                <div class="col-3">
+                <div class="col-sm-12 col-md-6 col-lg-3">
                     <img src="img/company-logo-4.png" alt="Company">
                 </div>
             </div>
@@ -587,8 +712,8 @@
     </section>
     <section class="contact-section">
         <div class="container">
-            <div class="row no-gutters d-flex align-items-center">
-                <div class="col-3">
+            <div class="row no-gutters align-items-center">
+                <div class="col-sm-12 col-md-6 col-xl-3">
                     <div class="contact-section-company">
                         <div class="contact-section-company-logo d-flex align-items-center">
                             <img class="contact-section-company-logo__image" src="img/waxom-logo.png" alt="Waxom Logo">
@@ -601,7 +726,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-sm-12 col-md-6 col-xl-3">
                     <div class="contact-section-posts">
                         <h4 class="contact-section-posts__title">Recept posts</h4>
                         <div class="contact-section-posts-block">
@@ -618,7 +743,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-sm-12 col-md-6 col-xl-3">
                     <div class="contact-section-twitter">
                         <h4 class="contact-section-twitter__title">Our twitter</h4>
                         <div class="contact-section-twitter-block">
@@ -635,7 +760,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-sm-12 col-md-6 col-xl-3">
                     <div class="contact-section-widgets">
                         <h4 class="contact-section-widgets__title">Dribble widgets</h4>
                         <div class="contact-section-widgets-block">
@@ -669,13 +794,13 @@
     </section>
     <footer class="footer-section">
         <div class="container">
-            <div class="row no-gutters">
-                <div class="col-8">
+            <div class="row no-gutters text-center text-md-left align-items-center">
+                <div class="col-sm-12 col-md-8 mb-3 mb-md-0">
                     <div class="footer-section-left">
                         <span class="footer-section-left__copy">Copyright &copy; 2015 <a class="footer-section-left__link" href="#">Waxom</a> | <a class="footer-section-left__link" href="#">Privacy Policy</a> | <a class="footer-section-left__link" href="#">FAQ</a> | <a class="footer-section-left__link" href="#">Support</a></span>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-12 col-md-4">
                     <div class="footer-section-right">
                         <span class="footer-section-right__additional-info">Designed by <a class="footer-section-right__link" href="#">ThemeFire</a> | Only on <a class="footer-section-right__link" href="#">Envato market</a></span>
                     </div>
