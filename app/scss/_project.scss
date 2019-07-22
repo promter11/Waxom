@@ -40,12 +40,14 @@
     &-block {
         max-width: 370px;
 
-        margin: 0 auto;
+        margin: 0 auto 30px auto;
 
-        margin-bottom: 30px;
+        cursor: pointer;
 
         &-img {
             height: 237px;
+
+            transition: all .5s ease-in-out;
 
             &__chain-icon,
             &__magnifier-icon {
@@ -135,14 +137,20 @@
 
             padding: 30px;
 
+            transition: background-color .5s ease-in-out;
+
             background-color: $block-bg-color;
 
             &__title {
                 color: $brand-color;
+
+                transition: color .25s ease-in-out;
             }
 
             &__type {
                 color: $type-color;
+
+                transition: color .25s ease-in-out;
             }
 
             &:after {
@@ -154,6 +162,8 @@
 
                 border: 15px solid transparent;
                 border-bottom: 15px solid #fff;
+
+                transition: border .5s ease-in-out;
             }
         }
     }

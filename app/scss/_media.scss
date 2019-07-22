@@ -27,14 +27,14 @@
                 left: 0;
 
                 width: 50%;
-                height: auto;
+                height: 100vh;
 
                 background-color: $title-color;
 
                 .nav {
 
                     &-link {
-                        padding: 36px;
+                        padding: 28px 0;
                     }
 
                     &-item {
@@ -59,6 +59,23 @@
 
             &__center-image {
                 position: relative;
+            }
+        }
+    }
+
+    .post-section {
+
+        &-card {
+
+            &-img {
+
+                &-date {
+                    display: none;
+                }
+            }
+
+            &-content {
+                display: none;
             }
         }
     }
@@ -88,7 +105,22 @@
 }
 
 @media only screen and (min-width: 768px) {
-    
+    .post-section {
+
+        &-card {
+
+            &-img {
+
+                &-date {
+                    display: block;
+                }
+            }
+
+            &-content {
+                display: block;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -99,11 +131,11 @@
             &-caption {
 
                 h2 {
-                    font-size: 30px;
+                    font-size: 36px;
                 }
 
                 h1 {
-                    font-size: 48px;
+                    font-size: 52px;
                 }
 
                 p {
@@ -118,6 +150,7 @@
                 position: static;
 
                 width: 100%;
+                height: auto;
 
                 background-color: transparent;
 

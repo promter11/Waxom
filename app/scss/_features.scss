@@ -4,12 +4,20 @@
     &-block {
         margin-bottom: 40px;
 
+        cursor: pointer;
+
         &__image {
             margin-bottom: 30px;
+
+            feFlood {
+                transition: flood-color .5s ease-in-out;
+            }
         }
 
         &__title {
             margin-bottom: 22px;
+
+            transition: color .5s;
         }
 
         &__description {
@@ -25,6 +33,8 @@
             height: 3px;
     
             margin: 0 auto;
+
+            transition: background-color .5s ease-in-out;
     
             background-color: $line-color;
         }

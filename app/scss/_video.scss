@@ -20,7 +20,16 @@
 
             border-radius: 50%;
 
+            outline: none !important;
+            box-shadow: none !important;
+
+            transition: background-color .5s ease-in-out;
+
             background-color: rgba(0, 0, 0, 0.5);
+
+            &:hover {
+                background-color: rgba(0, 0, 0, 0.75);
+            }
         }
 
         &__title {
@@ -40,6 +49,16 @@
             line-height: 1.7;
 
             color: $time-color;
+        }
+
+        .modal {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            
+            transform: translate(-50%, -50%);
+
+            width: 100%;
         }
     }
 }

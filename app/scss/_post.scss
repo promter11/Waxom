@@ -17,6 +17,11 @@
     }
 
     &-card {
+        max-width: 370px;
+
+        margin: 0 auto;
+
+        cursor: pointer;
 
         &-img {
             position: relative;
@@ -24,6 +29,8 @@
             &__image {
                 max-width: 100%;
                 height: auto;
+
+                transition: all .5s ease-in-out;
             }
 
             &-date {
@@ -44,6 +51,8 @@
 
                     border-radius: 4px 4px 0 0;
 
+                    transition: all .5s ease-in-out;
+
                     background-color: $contact-date-color;
                     color: #fff;
                 }
@@ -61,6 +70,8 @@
 
                     border-radius: 0 0 4px 4px;
 
+                    transition: all .5s ease-in-out;
+
                     background-color: $contact-border-color;
                     color: #fff;
                 }
@@ -72,14 +83,20 @@
 
             border: 1px solid $block-bg-color;
 
+            transition: all .5s ease-in-out;
+
             &__title {
                 margin-bottom: 20px;
+
+                transition: color .5s ease-in-out;
             }
 
             &__description {
                 font-size: 14px;
 
                 margin-bottom: 30px;
+
+                transition: color .5s ease-in-out;
             }
 
             &-btn {

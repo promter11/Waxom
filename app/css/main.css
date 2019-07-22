@@ -195,11 +195,22 @@ button {
 }
 
 .header-section .navbar .nav-item .form-control {
-  display: none;
   position: absolute;
-  top: 45px;
-  right: 15px;
-  width: 170px;
+  top: -8px;
+  right: 64px;
+  padding: 0;
+  width: 0;
+  height: 0;
+  border: none;
+  -webkit-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.header-section .navbar .nav-item .active {
+  width: 648px;
+  height: 40px;
+  padding: 20px;
 }
 
 .header-section .carousel-indicators li {
@@ -243,14 +254,24 @@ button {
 
 .feature-section-block {
   margin-bottom: 40px;
+  cursor: pointer;
 }
 
 .feature-section-block__image {
   margin-bottom: 30px;
 }
 
+.feature-section-block__image feFlood {
+  -webkit-transition: flood-color .5s ease-in-out;
+  -o-transition: flood-color .5s ease-in-out;
+  transition: flood-color .5s ease-in-out;
+}
+
 .feature-section-block__title {
   margin-bottom: 22px;
+  -webkit-transition: color .5s;
+  -o-transition: color .5s;
+  transition: color .5s;
 }
 
 .feature-section-block__description {
@@ -263,6 +284,9 @@ button {
   width: 70px;
   height: 3px;
   margin: 0 auto;
+  -webkit-transition: background-color .5s ease-in-out;
+  -o-transition: background-color .5s ease-in-out;
+  transition: background-color .5s ease-in-out;
   background-color: #f1eee9;
 }
 
@@ -383,12 +407,15 @@ button {
 
 .project-section-block {
   max-width: 370px;
-  margin: 0 auto;
-  margin-bottom: 30px;
+  margin: 0 auto 30px auto;
+  cursor: pointer;
 }
 
 .project-section-block-img {
   height: 237px;
+  -webkit-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .project-section-block-img__chain-icon, .project-section-block-img__magnifier-icon {
@@ -457,15 +484,24 @@ button {
   position: relative;
   max-width: 370px;
   padding: 30px;
+  -webkit-transition: background-color .5s ease-in-out;
+  -o-transition: background-color .5s ease-in-out;
+  transition: background-color .5s ease-in-out;
   background-color: #fbfaf8;
 }
 
 .project-section-block-content__title {
   color: #c7b299;
+  -webkit-transition: color .25s ease-in-out;
+  -o-transition: color .25s ease-in-out;
+  transition: color .25s ease-in-out;
 }
 
 .project-section-block-content__type {
   color: #d1d1d1;
+  -webkit-transition: color .25s ease-in-out;
+  -o-transition: color .25s ease-in-out;
+  transition: color .25s ease-in-out;
 }
 
 .project-section-block-content:after {
@@ -475,6 +511,9 @@ button {
   left: 20px;
   border: 15px solid transparent;
   border-bottom: 15px solid #fff;
+  -webkit-transition: border .5s ease-in-out;
+  -o-transition: border .5s ease-in-out;
+  transition: border .5s ease-in-out;
 }
 
 .project-section-button button {
@@ -509,7 +548,17 @@ button {
   height: 100px;
   margin-bottom: 40px;
   border-radius: 50%;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  -webkit-transition: background-color .5s ease-in-out;
+  -o-transition: background-color .5s ease-in-out;
+  transition: background-color .5s ease-in-out;
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.video-section-content__play-btn:hover {
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 .video-section-content__title {
@@ -526,6 +575,16 @@ button {
   font-family: 'Montserrat';
   line-height: 1.7;
   color: #bcaa95;
+}
+
+.video-section-content .modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
 }
 
 .mobile-section {
@@ -627,6 +686,12 @@ button {
   margin: 0 auto 40px auto;
 }
 
+.post-section-card {
+  max-width: 370px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
 .post-section-card-img {
   position: relative;
 }
@@ -634,6 +699,9 @@ button {
 .post-section-card-img__image {
   max-width: 100%;
   height: auto;
+  -webkit-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .post-section-card-img-date {
@@ -651,6 +719,9 @@ button {
   text-align: center;
   padding: 10px;
   border-radius: 4px 4px 0 0;
+  -webkit-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
   background-color: #363636;
   color: #fff;
 }
@@ -664,6 +735,9 @@ button {
   text-align: center;
   padding: 5px 10px;
   border-radius: 0 0 4px 4px;
+  -webkit-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
   background-color: #252525;
   color: #fff;
 }
@@ -671,15 +745,24 @@ button {
 .post-section-card-content {
   padding: 30px;
   border: 1px solid #fbfaf8;
+  -webkit-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .post-section-card-content__title {
   margin-bottom: 20px;
+  -webkit-transition: color .5s ease-in-out;
+  -o-transition: color .5s ease-in-out;
+  transition: color .5s ease-in-out;
 }
 
 .post-section-card-content__description {
   font-size: 14px;
   margin-bottom: 30px;
+  -webkit-transition: color .5s ease-in-out;
+  -o-transition: color .5s ease-in-out;
+  transition: color .5s ease-in-out;
 }
 
 .post-section-card-content-btn__link {
@@ -926,11 +1009,11 @@ button {
     top: 0;
     left: 0;
     width: 50%;
-    height: auto;
+    height: 100vh;
     background-color: #555555;
   }
   .header-section .navbar .navbar-collapse .nav-link {
-    padding: 36px;
+    padding: 28px 0;
   }
   .header-section .navbar .navbar-collapse .nav-item:last-child {
     display: none;
@@ -940,6 +1023,12 @@ button {
   }
   .idea-section .idea-img-block__center-image {
     position: relative;
+  }
+  .post-section-card-img-date {
+    display: none;
+  }
+  .post-section-card-content {
+    display: none;
   }
 }
 
@@ -955,12 +1044,21 @@ button {
   }
 }
 
+@media only screen and (min-width: 768px) {
+  .post-section-card-img-date {
+    display: block;
+  }
+  .post-section-card-content {
+    display: block;
+  }
+}
+
 @media only screen and (min-width: 992px) {
   .header-section .carousel-caption h2 {
-    font-size: 30px;
+    font-size: 36px;
   }
   .header-section .carousel-caption h1 {
-    font-size: 48px;
+    font-size: 52px;
   }
   .header-section .carousel-caption p {
     font-size: 16px;
@@ -968,6 +1066,7 @@ button {
   .header-section .navbar .navbar-collapse {
     position: static;
     width: 100%;
+    height: auto;
     background-color: transparent;
   }
   .header-section .navbar .navbar-collapse .nav-link {

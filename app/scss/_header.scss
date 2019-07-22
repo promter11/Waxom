@@ -71,13 +71,25 @@
                 }
     
                 .form-control {
-                    display: none;
-
                     position: absolute;
-                    top: 45px;
-                    right: 15px;
+                    top: -8px;
+                    right: 64px;
 
-                    width: 170px;
+                    padding: 0;
+                    
+                    width: 0;
+                    height: 0;
+
+                    border: none;
+
+                    transition: all .5s ease-in-out;
+                }
+
+                .active {
+                    width: 648px;
+                    height: 40px;
+
+                    padding: 20px;
                 }
             }
         }
